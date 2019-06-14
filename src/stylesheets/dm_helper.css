@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Cardo";
+  src: url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
+}
+
+:root {
+  --color-background: rgb(230, 230, 220);
+  --color-background-dark: rgb(200, 200, 190);
+  --color-background-very-dark: rgb(150, 150, 140);
+  --color-text: rgb(90, 90, 90);
+  --color-ui-element-light: rgb(179, 216, 156);
+  --color-ui-element-dark: rgb(208, 239, 177);
+}
+
+body {
+  background: var(--color-background);
+  font-family: "Cardo", serif;
+  color: var(--color-text);
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+.dm-helper {}
+
+.dm-helper-header {
+  padding: 0px 15px;
+}
+
+.dm-helper-body {
+  padding: 0px 15px;
+}
+
+.dm-helper-footer {
+  position: relative;
+  bottom: 0;
+  padding: 0px 15px;
+}
+
+/*
+Credit to Amethyst web design
+https://amethystwebsitedesign.com/decorative-borders-with-only-css-and-no-images/
+*/
+.chain-border {
+  border-top: 2px dashed var(--color-background-very-dark);
+  border-bottom: 1px dashed var(--color-background-very-dark);
+  box-shadow: inset 0 -1px 0 0 var(--color-background-very-dark), inset 0 1px 0 0 var(--color-background-very-dark), 0 1px 0 0 var(--color-background-very-dark), 0 -1px 0 0 var(--color-background-very-dark);
+  margin-bottom: 1px;
+}
+
+.encounter-generator {
+  padding: 10px 0;
+}
+
+.encounter-monster-list {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.encounter-monster {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px 10px;
+  background: rgb(120, 120, 80);
+  color: linen;
+}
+
+.encounter-monster-name {
+  font-weight: 600;
+}
+
+.encounter-monster-cr {}
+
+.encounter-monster-xp {}

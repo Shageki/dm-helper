@@ -1,0 +1,41 @@
+[{
+  "name": "Sahuagin Raider",
+  "challengeRating": 0.5,
+  "experience": 100,
+  "details": {}
+}, {
+  "name": "Sahuagin Swarmer",
+  "challengeRating": 0.125,
+  "experience": 10,
+  "details": {}
+}, {
+  "name": "Sahuagin Youngblood",
+  "challengeRating": 0.25,
+  "experience": 25,
+  "details": {}
+}, {
+  "name": "Sahuagin Captain",
+  "challengeRating": 5,
+  "experience": 1800,
+  "details": {}
+}, {
+  "name": "Sahuagin Priestess",
+  "challengeRating": 2,
+  "experience": 450,
+  "details": {}
+}, {
+  "name": "Merrow",
+  "challengeRating": 2,
+  "experience": 450,
+  "details": {}
+}, {
+  "name": "Sea Hag",
+  "challengeRating": 2,
+  "experience": 450,
+  "details": {}
+}, {
+  "name": "Armored Sahuagin",
+  "challengeRating": 3,
+  "experience": 700,
+  "details": {}
+}]
